@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery+</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
+  <link rel="icon" href="img/fav.ico" type="image/x-icon">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eeedf530;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+.column video {
+  margin-top: 12px;
+}
+.row {
+  margin: 0 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.right {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-weight: 300;
+}
+.right h1 {
+  font-size: 45px;
+  letter-spacing: 10px;
+  color: #f5d38af0;
+}
+.right h2 {
+  font-size: 25px;
+  letter-spacing: 5px;
+  color: #b3af9b;
+}
+.left {
+  margin: 50px 30px;
+}
+.left p {
+  color: #776f37e0;
+  font-size: 22px;
+  padding: 5px;
+}
+.left p:hover {
+  color: #776f37b5;
+}
+.left span {
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+}
+
+footer {
+  margin-top: 50px;
+  border-top: 1px solid #eee;
+}
+footer p {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #999e88;
+}
+
+@media all and (max-width: 670px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="head">
+    <div class="left">
+      <a href="index.html"><p><span class="fas fa-backward" style="color: #d8ce86;"></span>Back</p></a>
+    </div>
+    <div class="right">
+      <h1>Gallery</h1>
+      <h2>"Foto And Video"</h2>
+    </div>
+  </div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="img/gal1.JPG" style="width:100%">
+    <img src="img/gal4.jpg" style="width:100%">
+    <img src="img/gal2.JPG" style="width:100%">
+    <img src="img/gal3.jpg" style="width:100%">
+    <video controls style="width: 100%">
+      <source src="img/vid5.mp4" type="video/mp4">
+    </video>
+    <img src="img/gal8.jpg" style="width:100%">
+    <img src="img/gal5.png" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="img/gal6.jpg" style="width:100%">
+    <img src="img/salah.png" style="width:100%">
+    <video controls style="width: 100%">
+      <source src="img/vid6.mp4" type="video/mp4">
+    </video>
+    
+  </div>  
+  <div class="column">
+    <img src="img/gal7.png" alt ="img9"style="width:100%">
+    <img src="img/gal10.jpg" style="width: 100%">
+  </div>
+  <div class="column">
+    <a href="https://drive.google.com/file/d/14ck0EM9iZbSGu87ZA7sDaHgeAGPoEqTA/view?usp=sharing>"><img src="img/gal9.jpg" style="width:100%"></a>
+    <img src="img/gal0.jpg" style="width:100%">
+  </div>
+</div>
+<footer>
+  <p>2021 | Dekyoo</p>
+</footer>
+
+</body>
+</html>
+
